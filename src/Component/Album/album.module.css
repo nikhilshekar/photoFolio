@@ -1,0 +1,40 @@
+/* album container */
+.cardContainer {
+  width: 335px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 5px 5px 0 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+/* album logo */
+.cardImage {
+  width: 80%;
+  height: 80%;
+  background-image: url("../../files/Images/album.png");
+  background-size: cover;
+  transition: 0.2s;
+}
+
+/* album name */
+.cardName {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.cardContainer:hover {
+  color: aqua;
+}
+
+.cardImage:hover {
+  transform: scale(1.1);
+}
